@@ -15,9 +15,7 @@ class MainDialog(QtWidgets.QDialog):
         self.ui.Purpose_pushButton_MIT01.clicked.connect(self.textclicked)
         self.ui.Condition_pushButton_MIT01.clicked.connect(self.textclicked2)
         self.ui.Expected_pushButton_MIT01.clicked.connect(self.textclicked3)
-        ####
-        # 이승헌
-        ####
+
         self.out_data = ''
         self.out_data2 = ''
         self.out_data3 = ''
