@@ -3,7 +3,7 @@
 # Form implementation generated from reading ui file 'SAMG_2.ui',
 # licensing of 'SAMG_2.ui' applies.
 #
-# Created: Sun Jul  7 16:17:59 2019
+# Created: Sun Jul  7 16:32:18 2019
 #      by: pyside2-uic  running on PySide2 5.13.0
 #
 # WARNING! All changes made in this file will be lost!
@@ -36,6 +36,7 @@ class Ui_Dialog(object):
         font.setWeight(75)
         font.setBold(True)
         self.Purpose_pushButton_MIT01.setFont(font)
+        self.Purpose_pushButton_MIT01.setAutoFillBackground(True)
         self.Purpose_pushButton_MIT01.setObjectName("Purpose_pushButton_MIT01")
         self.Condition_pushButton_MIT01 = QtWidgets.QPushButton(self.frame)
         self.Condition_pushButton_MIT01.setGeometry(QtCore.QRect(10, 60, 301, 41))
@@ -102,8 +103,9 @@ class Ui_Dialog(object):
         self.End_pushButton_MIT01.setObjectName("End_pushButton_MIT01")
         self.frame_2 = QtWidgets.QFrame(Dialog)
         self.frame_2.setGeometry(QtCore.QRect(420, 100, 1361, 1261))
+        self.frame_2.setInputMethodHints(QtCore.Qt.ImhNone)
         self.frame_2.setFrameShape(QtWidgets.QFrame.WinPanel)
-        self.frame_2.setFrameShadow(QtWidgets.QFrame.Plain)
+        self.frame_2.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_2.setObjectName("frame_2")
         self.Complite_pushButton_MIT01 = QtWidgets.QPushButton(self.frame_2)
         self.Complite_pushButton_MIT01.setGeometry(QtCore.QRect(10, 1210, 191, 41))
@@ -123,7 +125,7 @@ class Ui_Dialog(object):
         self.pushButton = QtWidgets.QPushButton(self.frame_2)
         self.pushButton.setGeometry(QtCore.QRect(1180, 130, 75, 23))
         self.pushButton.setContextMenuPolicy(QtCore.Qt.DefaultContextMenu)
-        self.pushButton.setInputMethodHints(QtCore.Qt.ImhHiddenText)
+        self.pushButton.setInputMethodHints(QtCore.Qt.ImhNone)
         self.pushButton.setObjectName("pushButton")
         self.frame_3 = QtWidgets.QFrame(Dialog)
         self.frame_3.setGeometry(QtCore.QRect(1780, 20, 771, 671))
@@ -160,7 +162,9 @@ class Ui_Dialog(object):
         self.TBD_textBrowser_MIT01.setObjectName("TBD_textBrowser_MIT01")
 
         self.retranslateUi(Dialog)
-        QtCore.QObject.connect(self.Purpose_pushButton_MIT01, QtCore.SIGNAL("clicked()"), self.pushButton.show)
+        QtCore.QObject.connect(self.Condition_pushButton_MIT01, QtCore.SIGNAL("clicked()"), self.Out_textBrowser_MIT01.hide)
+        QtCore.QObject.connect(self.Expected_pushButton_MIT01, QtCore.SIGNAL("clicked()"), self.Current_Strategy_textBrowser_MIT01.hide)
+        QtCore.QObject.connect(self.Purpose_pushButton_MIT01, QtCore.SIGNAL("clicked()"), self.Out_textBrowser_MIT01.show)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
 
     def retranslateUi(self, Dialog):
@@ -177,6 +181,11 @@ class Ui_Dialog(object):
         self.Complite_pushButton_MIT01.setText(QtWidgets.QApplication.translate("Dialog", "완료", None, -1))
         self.Move_to_Control_pushButton_MIT01.setText(QtWidgets.QApplication.translate("Dialog", "전략수행제어도로 이동", None, -1))
         self.Moe_to_Previous_pushButton_MIT01.setText(QtWidgets.QApplication.translate("Dialog", "이전수행중이던 지침서로 이동", None, -1))
+        self.Out_textBrowser_MIT01.setHtml(QtWidgets.QApplication.translate("Dialog", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Gulim\'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Text사용중~~</p></body></html>", None, -1))
         self.pushButton.setText(QtWidgets.QApplication.translate("Dialog", "PushButton", None, -1))
         self.textBrowser.setHtml(QtWidgets.QApplication.translate("Dialog", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
