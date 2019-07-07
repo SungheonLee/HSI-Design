@@ -1,4 +1,4 @@
-from ui_SAMG import *
+from ui_SAMG_2 import *
 
 import sys
 from PySide2 import (QtCore, QtWidgets, QtGui)
