@@ -10,7 +10,7 @@ class MainDialog(QtWidgets.QDialog):
         self.ui = Ui_Dialog()
         self.ui.setupUi(self)
 
-        # self.pushbutton = QPushButton('A', self)#Pushbutton 생성
+        # self.pushbutton = QPushButton('A', self) #Pushbutton 생성
 
         self.ui.Purpose_pushButton_MIT01.clicked.connect(self.textclicked)
         self.ui.Condition_pushButton_MIT01.clicked.connect(self.textclicked2)
@@ -19,8 +19,6 @@ class MainDialog(QtWidgets.QDialog):
         self.out_data = ''
         self.out_data2 = ''
         self.out_data3 = ''
-
-    def retranslateUi(self, Dialog):
 
     def textclicked(self): #목적 버튼을 누르면, Information, TBD, FBD에 자동으로 표시되게 하는 로직
         print(self.ui.Purpose_pushButton_MIT01.text())
@@ -35,8 +33,8 @@ class MainDialog(QtWidgets.QDialog):
         self.ui.FBD_textBrowser_MIT01.setText('\n' + 'a')
         self.ui.TBD_textBrowser_MIT01.clear()
         self.ui.TBD_textBrowser_MIT01.setText('\n' + 'a')
-        self.ui.Current_Strategy_textBrowser_MIT01.clear()
-        self.ui.Current_Strategy_textBrowser_MIT01.setText('안녕')
+        self.ui.Title_textBrowser_4.clear()
+        self.ui.Title_textBrowser_4.setText('안녕')
 
     def textclicked2(self): #수행조건확인 버튼을 누르면, Information, TBD, FBD에 자동으로 표시되게 하는 로직
         print(self.ui.Condition_pushButton_MIT01.text())
@@ -47,8 +45,8 @@ class MainDialog(QtWidgets.QDialog):
         self.ui.FBD_textBrowser_MIT01.setText('\n' + 'b')
         self.ui.TBD_textBrowser_MIT01.clear()
         self.ui.TBD_textBrowser_MIT01.setText('\n' + 'b')
-        self.ui.Current_Strategy_textBrowser_MIT01.clear()
-        self.ui.Current_Strategy_textBrowser_MIT01.setText('안녕')
+        self.ui.Title_textBrowser_4.clear()
+        self.ui.Title_textBrowser_4.setText('안녕')
 
     def textclicked3(self): #예상발전소거동 버튼을 누르면, Information, TBD, FBD에 자동으로 표시되게 하는 로직
         print(self.ui.Expected_pushButton_MIT01.text())
@@ -61,8 +59,8 @@ class MainDialog(QtWidgets.QDialog):
         self.ui.FBD_textBrowser_MIT01.setText('\n' + 'c')
         self.ui.TBD_textBrowser_MIT01.clear()
         self.ui.TBD_textBrowser_MIT01.setText('\n' + 'c')
-        self.ui.Current_Strategy_textBrowser_MIT01.clear()
-        self.ui.Current_Strategy_textBrowser_MIT01.setText('안녕')
+        self.ui.Title_textBrowser_4.clear()
+        self.ui.Title_textBrowser_4.setText('안녕')
 
 if __name__ == '__main__':
     app = QtWidgets.QApplication(sys.argv)
