@@ -3,7 +3,7 @@
 # Form implementation generated from reading ui file 'SAMG_2.ui',
 # licensing of 'SAMG_2.ui' applies.
 #
-# Created: Sun Jul  7 12:56:51 2019
+# Created: Sun Jul  7 12:59:41 2019
 #      by: pyside2-uic  running on PySide2 5.13.0
 #
 # WARNING! All changes made in this file will be lost!
@@ -100,14 +100,6 @@ class Ui_Dialog(object):
         font.setBold(True)
         self.End_pushButton_MIT01.setFont(font)
         self.End_pushButton_MIT01.setObjectName("End_pushButton_MIT01")
-        self.radioButton = QtWidgets.QRadioButton(self.frame)
-        self.radioButton.setGeometry(QtCore.QRect(320, 30, 16, 16))
-        self.radioButton.setText("")
-        self.radioButton.setIconSize(QtCore.QSize(16, 16))
-        self.radioButton.setCheckable(True)
-        self.radioButton.setChecked(False)
-        self.radioButton.setAutoRepeatDelay(306)
-        self.radioButton.setObjectName("radioButton")
         self.frame_2 = QtWidgets.QFrame(Dialog)
         self.frame_2.setGeometry(QtCore.QRect(420, 100, 1361, 1261))
         self.frame_2.setFrameShape(QtWidgets.QFrame.WinPanel)
@@ -134,6 +126,14 @@ class Ui_Dialog(object):
         self.textBrowser_4 = QtWidgets.QTextBrowser(self.frame_2)
         self.textBrowser_4.setGeometry(QtCore.QRect(190, 70, 1011, 51))
         self.textBrowser_4.setObjectName("textBrowser_4")
+        self.radioButton = QtWidgets.QRadioButton(self.frame_2)
+        self.radioButton.setGeometry(QtCore.QRect(1040, 190, 16, 16))
+        self.radioButton.setText("")
+        self.radioButton.setIconSize(QtCore.QSize(16, 16))
+        self.radioButton.setCheckable(True)
+        self.radioButton.setChecked(False)
+        self.radioButton.setAutoRepeatDelay(306)
+        self.radioButton.setObjectName("radioButton")
         self.frame_3 = QtWidgets.QFrame(Dialog)
         self.frame_3.setGeometry(QtCore.QRect(1780, 20, 771, 671))
         self.frame_3.setFrameShape(QtWidgets.QFrame.WinPanel)
@@ -163,6 +163,7 @@ class Ui_Dialog(object):
         self.frame_4.setObjectName("frame_4")
 
         self.retranslateUi(Dialog)
+        QtCore.QObject.connect(self.Purpose_pushButton_MIT01, QtCore.SIGNAL("clicked()"), self.radioButton.close)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
 
     def retranslateUi(self, Dialog):
