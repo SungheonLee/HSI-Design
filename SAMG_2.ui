@@ -6,9 +6,21 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>2559</width>
+    <width>2570</width>
     <height>1566</height>
    </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>2570</width>
+    <height>1566</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>2570</width>
+    <height>1566</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>Dialog</string>
@@ -239,97 +251,154 @@
    <property name="frameShadow">
     <enum>QFrame::Raised</enum>
    </property>
-   <widget class="QPushButton" name="Complite_pushButton_MIT01">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>1210</y>
-      <width>191</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>완료</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="Move_to_Control_pushButton_MIT01">
-    <property name="geometry">
-     <rect>
-      <x>200</x>
-      <y>1210</y>
-      <width>191</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>전략수행제어도로 이동</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="Moe_to_Previous_pushButton_MIT01">
-    <property name="geometry">
-     <rect>
-      <x>390</x>
-      <y>1210</y>
-      <width>191</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>이전수행중이던 지침서로 이동</string>
-    </property>
-   </widget>
-   <widget class="QTextBrowser" name="Out_textBrowser_MIT01">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>90</y>
-      <width>1341</width>
-      <height>171</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Agency FB</family>
-      <pointsize>20</pointsize>
-     </font>
-    </property>
-    <property name="html">
-     <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
-&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
-p, li { white-space: pre-wrap; }
-&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Agency FB'; font-size:20pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Text 사용중 입니다.&lt;/p&gt;
-&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;없어졌다가 나타나고 하는걸 만들어보죠.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-    </property>
-   </widget>
-   <widget class="QTextBrowser" name="Current_Strategy_textBrowser_MIT01">
+   <widget class="QScrollArea" name="Main_MIT">
     <property name="geometry">
      <rect>
       <x>10</x>
       <y>10</y>
       <width>1341</width>
-      <height>71</height>
+      <height>1241</height>
      </rect>
     </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton">
-    <property name="geometry">
-     <rect>
-      <x>1274</x>
-      <y>90</y>
-      <width>81</width>
-      <height>171</height>
-     </rect>
+    <property name="widgetResizable">
+     <bool>true</bool>
     </property>
-    <property name="contextMenuPolicy">
-     <enum>Qt::DefaultContextMenu</enum>
-    </property>
-    <property name="inputMethodHints">
-     <set>Qt::ImhNone</set>
-    </property>
-    <property name="text">
-     <string>PushButton</string>
-    </property>
+    <widget class="QWidget" name="scrollAreaWidgetContents">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1339</width>
+       <height>1239</height>
+      </rect>
+     </property>
+     <widget class="QPushButton" name="Purpose_TBD_pushButton_MIT01">
+      <property name="geometry">
+       <rect>
+        <x>1160</x>
+        <y>240</y>
+        <width>161</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Task-Based Display</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Purpose_FBD_pushButton_MIT01">
+      <property name="geometry">
+       <rect>
+        <x>1000</x>
+        <y>240</y>
+        <width>161</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Function-Based Display</string>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="Purpose_Name_textBrowser_MIT01">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>1321</width>
+        <height>61</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="Purpose_Out_textBrowser_MIT01">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>79</y>
+        <width>1321</width>
+        <height>159</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Sunken</enum>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Agency FB'; font-size:14pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Gulim'; font-size:16pt; font-weight:600;&quot;&gt;  &lt;/span&gt;&lt;span style=&quot; font-family:'Gulim'; font-size:16pt; font-weight:600; text-decoration: underline;&quot;&gt;증기발생기 급수 주입의 목적은 다음과 같다.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Gulim'; font-size:16pt;&quot;&gt;      ● RCS 열 제거&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Gulim'; font-size:16pt;&quot;&gt;      ● RCS를 감압하여 RCS 내로 냉각재 공급을 가능하게 함&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Gulim'; font-size:16pt;&quot;&gt;      ● 증기발생기 튜브의 크립 파손 방지&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Gulim'; font-size:16pt;&quot;&gt;      ● 증기발생기로 방출된 핵분열생성물의 세정(Scrubbing)&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Gulim'; font-size:16pt;&quot;&gt;      ● 증기발생기 튜브 파손시 파손부를 통하여 RCS 내에 냉각재 공급&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QTextBrowser" name="Purpose_Name_textBrowser_MIT01_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>300</y>
+        <width>1321</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Agency FB</family>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="html">
+       <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Agency FB'; font-size:16pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Gulim'; font-size:9pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Gulim';&quot;&gt;      ● 발전소 상태가 A 또는 B이고 어느 하나라도 증기발생기 수위가 협역수위 지시기로 68% 이하일 때&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'Gulim';&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-family:'Gulim';&quot;&gt;      ● 발전소 상태가 C이고 핵분열생성물의 방출이 있는 증기발생기 수위가 협역수위 지시기로68% 이하일 때&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Purpose_FBD_pushButton_MIT01_2">
+      <property name="geometry">
+       <rect>
+        <x>1000</x>
+        <y>480</y>
+        <width>161</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Function-Based Display</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Purpose_TBD_pushButton_MIT01_2">
+      <property name="geometry">
+       <rect>
+        <x>1160</x>
+        <y>480</y>
+        <width>161</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Task-Based Display</string>
+      </property>
+     </widget>
+     <zorder>Purpose_TBD_pushButton_MIT01</zorder>
+     <zorder>Purpose_Out_textBrowser_MIT01</zorder>
+     <zorder>Purpose_FBD_pushButton_MIT01</zorder>
+     <zorder>Purpose_Name_textBrowser_MIT01</zorder>
+     <zorder>Purpose_Name_textBrowser_MIT01_2</zorder>
+     <zorder>Purpose_FBD_pushButton_MIT01_2</zorder>
+     <zorder>Purpose_TBD_pushButton_MIT01_2</zorder>
+    </widget>
    </widget>
   </widget>
   <widget class="QFrame" name="frame_3">
@@ -347,16 +416,6 @@ p, li { white-space: pre-wrap; }
    <property name="frameShadow">
     <enum>QFrame::Plain</enum>
    </property>
-   <widget class="QTextBrowser" name="FBD_textBrowser_MIT01">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>10</y>
-      <width>751</width>
-      <height>651</height>
-     </rect>
-    </property>
-   </widget>
   </widget>
   <widget class="QFrame" name="frame_5">
    <property name="geometry">
@@ -450,67 +509,13 @@ p, li { white-space: pre-wrap; }
    <property name="frameShadow">
     <enum>QFrame::Plain</enum>
    </property>
-   <widget class="QTextBrowser" name="TBD_textBrowser_MIT01">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>10</y>
-      <width>751</width>
-      <height>651</height>
-     </rect>
-    </property>
-   </widget>
   </widget>
+  <zorder>frame</zorder>
+  <zorder>frame_3</zorder>
+  <zorder>frame_5</zorder>
+  <zorder>frame_4</zorder>
+  <zorder>frame_2</zorder>
  </widget>
  <resources/>
- <connections>
-  <connection>
-   <sender>Condition_pushButton_MIT01</sender>
-   <signal>clicked()</signal>
-   <receiver>Out_textBrowser_MIT01</receiver>
-   <slot>hide()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>318</x>
-     <y>188</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>472</x>
-     <y>285</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>Expected_pushButton_MIT01</sender>
-   <signal>clicked()</signal>
-   <receiver>Current_Strategy_textBrowser_MIT01</receiver>
-   <slot>hide()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>319</x>
-     <y>225</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>433</x>
-     <y>158</y>
-    </hint>
-   </hints>
-  </connection>
-  <connection>
-   <sender>Purpose_pushButton_MIT01</sender>
-   <signal>clicked()</signal>
-   <receiver>Out_textBrowser_MIT01</receiver>
-   <slot>show()</slot>
-   <hints>
-    <hint type="sourcelabel">
-     <x>317</x>
-     <y>137</y>
-    </hint>
-    <hint type="destinationlabel">
-     <x>456</x>
-     <y>221</y>
-    </hint>
-   </hints>
-  </connection>
- </connections>
+ <connections/>
 </ui>

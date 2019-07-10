@@ -3,7 +3,7 @@
 # Form implementation generated from reading ui file 'SAMG_2.ui',
 # licensing of 'SAMG_2.ui' applies.
 #
-# Created: Sun Jul  7 16:32:18 2019
+# Created: Wed Jul 10 16:15:27 2019
 #      by: pyside2-uic  running on PySide2 5.13.0
 #
 # WARNING! All changes made in this file will be lost!
@@ -13,7 +13,9 @@ from PySide2 import QtCore, QtGui, QtWidgets
 class Ui_Dialog(object):
     def setupUi(self, Dialog):
         Dialog.setObjectName("Dialog")
-        Dialog.resize(2559, 1566)
+        Dialog.resize(2570, 1566)
+        Dialog.setMinimumSize(QtCore.QSize(2570, 1566))
+        Dialog.setMaximumSize(QtCore.QSize(2570, 1566))
         self.frame = QtWidgets.QFrame(Dialog)
         self.frame.setGeometry(QtCore.QRect(10, 100, 411, 1261))
         self.frame.setFrameShape(QtWidgets.QFrame.WinPanel)
@@ -107,34 +109,49 @@ class Ui_Dialog(object):
         self.frame_2.setFrameShape(QtWidgets.QFrame.WinPanel)
         self.frame_2.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame_2.setObjectName("frame_2")
-        self.Complite_pushButton_MIT01 = QtWidgets.QPushButton(self.frame_2)
-        self.Complite_pushButton_MIT01.setGeometry(QtCore.QRect(10, 1210, 191, 41))
-        self.Complite_pushButton_MIT01.setObjectName("Complite_pushButton_MIT01")
-        self.Move_to_Control_pushButton_MIT01 = QtWidgets.QPushButton(self.frame_2)
-        self.Move_to_Control_pushButton_MIT01.setGeometry(QtCore.QRect(200, 1210, 191, 41))
-        self.Move_to_Control_pushButton_MIT01.setObjectName("Move_to_Control_pushButton_MIT01")
-        self.Moe_to_Previous_pushButton_MIT01 = QtWidgets.QPushButton(self.frame_2)
-        self.Moe_to_Previous_pushButton_MIT01.setGeometry(QtCore.QRect(390, 1210, 191, 41))
-        self.Moe_to_Previous_pushButton_MIT01.setObjectName("Moe_to_Previous_pushButton_MIT01")
-        self.Out_textBrowser_MIT01 = QtWidgets.QTextBrowser(self.frame_2)
-        self.Out_textBrowser_MIT01.setGeometry(QtCore.QRect(10, 90, 1341, 171))
-        self.Out_textBrowser_MIT01.setObjectName("Out_textBrowser_MIT01")
-        self.Current_Strategy_textBrowser_MIT01 = QtWidgets.QTextBrowser(self.frame_2)
-        self.Current_Strategy_textBrowser_MIT01.setGeometry(QtCore.QRect(10, 10, 1341, 71))
-        self.Current_Strategy_textBrowser_MIT01.setObjectName("Current_Strategy_textBrowser_MIT01")
-        self.pushButton = QtWidgets.QPushButton(self.frame_2)
-        self.pushButton.setGeometry(QtCore.QRect(1180, 130, 75, 23))
-        self.pushButton.setContextMenuPolicy(QtCore.Qt.DefaultContextMenu)
-        self.pushButton.setInputMethodHints(QtCore.Qt.ImhNone)
-        self.pushButton.setObjectName("pushButton")
+        self.Main_MIT = QtWidgets.QScrollArea(self.frame_2)
+        self.Main_MIT.setGeometry(QtCore.QRect(10, 10, 1341, 1241))
+        self.Main_MIT.setWidgetResizable(True)
+        self.Main_MIT.setObjectName("Main_MIT")
+        self.scrollAreaWidgetContents = QtWidgets.QWidget()
+        self.scrollAreaWidgetContents.setGeometry(QtCore.QRect(0, 0, 1339, 1239))
+        self.scrollAreaWidgetContents.setObjectName("scrollAreaWidgetContents")
+        self.Purpose_TBD_pushButton_MIT01 = QtWidgets.QPushButton(self.scrollAreaWidgetContents)
+        self.Purpose_TBD_pushButton_MIT01.setGeometry(QtCore.QRect(1160, 240, 161, 51))
+        self.Purpose_TBD_pushButton_MIT01.setObjectName("Purpose_TBD_pushButton_MIT01")
+        self.Purpose_FBD_pushButton_MIT01 = QtWidgets.QPushButton(self.scrollAreaWidgetContents)
+        self.Purpose_FBD_pushButton_MIT01.setGeometry(QtCore.QRect(1000, 240, 161, 51))
+        self.Purpose_FBD_pushButton_MIT01.setObjectName("Purpose_FBD_pushButton_MIT01")
+        self.Purpose_Name_textBrowser_MIT01 = QtWidgets.QTextBrowser(self.scrollAreaWidgetContents)
+        self.Purpose_Name_textBrowser_MIT01.setGeometry(QtCore.QRect(10, 10, 1321, 61))
+        self.Purpose_Name_textBrowser_MIT01.setObjectName("Purpose_Name_textBrowser_MIT01")
+        self.Purpose_Out_textBrowser_MIT01 = QtWidgets.QTextBrowser(self.scrollAreaWidgetContents)
+        self.Purpose_Out_textBrowser_MIT01.setGeometry(QtCore.QRect(9, 79, 1321, 159))
+        font = QtGui.QFont()
+        font.setFamily("Agency FB")
+        font.setPointSize(14)
+        self.Purpose_Out_textBrowser_MIT01.setFont(font)
+        self.Purpose_Out_textBrowser_MIT01.setFrameShadow(QtWidgets.QFrame.Sunken)
+        self.Purpose_Out_textBrowser_MIT01.setObjectName("Purpose_Out_textBrowser_MIT01")
+        self.Purpose_Name_textBrowser_MIT01_2 = QtWidgets.QTextBrowser(self.scrollAreaWidgetContents)
+        self.Purpose_Name_textBrowser_MIT01_2.setGeometry(QtCore.QRect(10, 300, 1321, 171))
+        font = QtGui.QFont()
+        font.setFamily("Agency FB")
+        font.setPointSize(16)
+        self.Purpose_Name_textBrowser_MIT01_2.setFont(font)
+        self.Purpose_Name_textBrowser_MIT01_2.setObjectName("Purpose_Name_textBrowser_MIT01_2")
+        self.Purpose_FBD_pushButton_MIT01_2 = QtWidgets.QPushButton(self.scrollAreaWidgetContents)
+        self.Purpose_FBD_pushButton_MIT01_2.setGeometry(QtCore.QRect(1000, 480, 161, 51))
+        self.Purpose_FBD_pushButton_MIT01_2.setObjectName("Purpose_FBD_pushButton_MIT01_2")
+        self.Purpose_TBD_pushButton_MIT01_2 = QtWidgets.QPushButton(self.scrollAreaWidgetContents)
+        self.Purpose_TBD_pushButton_MIT01_2.setGeometry(QtCore.QRect(1160, 480, 161, 51))
+        self.Purpose_TBD_pushButton_MIT01_2.setObjectName("Purpose_TBD_pushButton_MIT01_2")
+        self.Main_MIT.setWidget(self.scrollAreaWidgetContents)
         self.frame_3 = QtWidgets.QFrame(Dialog)
         self.frame_3.setGeometry(QtCore.QRect(1780, 20, 771, 671))
         self.frame_3.setFrameShape(QtWidgets.QFrame.WinPanel)
         self.frame_3.setFrameShadow(QtWidgets.QFrame.Plain)
         self.frame_3.setObjectName("frame_3")
-        self.FBD_textBrowser_MIT01 = QtWidgets.QTextBrowser(self.frame_3)
-        self.FBD_textBrowser_MIT01.setGeometry(QtCore.QRect(10, 10, 751, 651))
-        self.FBD_textBrowser_MIT01.setObjectName("FBD_textBrowser_MIT01")
         self.frame_5 = QtWidgets.QFrame(Dialog)
         self.frame_5.setGeometry(QtCore.QRect(10, 20, 1771, 81))
         self.frame_5.setFrameShape(QtWidgets.QFrame.WinPanel)
@@ -157,14 +174,8 @@ class Ui_Dialog(object):
         self.frame_4.setFrameShape(QtWidgets.QFrame.WinPanel)
         self.frame_4.setFrameShadow(QtWidgets.QFrame.Plain)
         self.frame_4.setObjectName("frame_4")
-        self.TBD_textBrowser_MIT01 = QtWidgets.QTextBrowser(self.frame_4)
-        self.TBD_textBrowser_MIT01.setGeometry(QtCore.QRect(10, 10, 751, 651))
-        self.TBD_textBrowser_MIT01.setObjectName("TBD_textBrowser_MIT01")
 
         self.retranslateUi(Dialog)
-        QtCore.QObject.connect(self.Condition_pushButton_MIT01, QtCore.SIGNAL("clicked()"), self.Out_textBrowser_MIT01.hide)
-        QtCore.QObject.connect(self.Expected_pushButton_MIT01, QtCore.SIGNAL("clicked()"), self.Current_Strategy_textBrowser_MIT01.hide)
-        QtCore.QObject.connect(self.Purpose_pushButton_MIT01, QtCore.SIGNAL("clicked()"), self.Out_textBrowser_MIT01.show)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
 
     def retranslateUi(self, Dialog):
@@ -178,15 +189,28 @@ class Ui_Dialog(object):
         self.Decide_Method_pushButton_MIT01.setText(QtWidgets.QApplication.translate("Dialog", "전략 수행 방법 결정", None, -1))
         self.Perform_pushButton_MIT01.setText(QtWidgets.QApplication.translate("Dialog", "전략 수행", None, -1))
         self.End_pushButton_MIT01.setText(QtWidgets.QApplication.translate("Dialog", "전략 종결", None, -1))
-        self.Complite_pushButton_MIT01.setText(QtWidgets.QApplication.translate("Dialog", "완료", None, -1))
-        self.Move_to_Control_pushButton_MIT01.setText(QtWidgets.QApplication.translate("Dialog", "전략수행제어도로 이동", None, -1))
-        self.Moe_to_Previous_pushButton_MIT01.setText(QtWidgets.QApplication.translate("Dialog", "이전수행중이던 지침서로 이동", None, -1))
-        self.Out_textBrowser_MIT01.setHtml(QtWidgets.QApplication.translate("Dialog", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+        self.Purpose_TBD_pushButton_MIT01.setText(QtWidgets.QApplication.translate("Dialog", "Task-Based Display", None, -1))
+        self.Purpose_FBD_pushButton_MIT01.setText(QtWidgets.QApplication.translate("Dialog", "Function-Based Display", None, -1))
+        self.Purpose_Out_textBrowser_MIT01.setHtml(QtWidgets.QApplication.translate("Dialog", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Gulim\'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">Text사용중~~</p></body></html>", None, -1))
-        self.pushButton.setText(QtWidgets.QApplication.translate("Dialog", "PushButton", None, -1))
+"</style></head><body style=\" font-family:\'Agency FB\'; font-size:14pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Gulim\'; font-size:16pt; font-weight:600;\">  </span><span style=\" font-family:\'Gulim\'; font-size:16pt; font-weight:600; text-decoration: underline;\">증기발생기 급수 주입의 목적은 다음과 같다.</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Gulim\'; font-size:16pt;\">      ● RCS 열 제거</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Gulim\'; font-size:16pt;\">      ● RCS를 감압하여 RCS 내로 냉각재 공급을 가능하게 함</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Gulim\'; font-size:16pt;\">      ● 증기발생기 튜브의 크립 파손 방지</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Gulim\'; font-size:16pt;\">      ● 증기발생기로 방출된 핵분열생성물의 세정(Scrubbing)</span></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Gulim\'; font-size:16pt;\">      ● 증기발생기 튜브 파손시 파손부를 통하여 RCS 내에 냉각재 공급</span></p></body></html>", None, -1))
+        self.Purpose_Name_textBrowser_MIT01_2.setHtml(QtWidgets.QApplication.translate("Dialog", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"</style></head><body style=\" font-family:\'Agency FB\'; font-size:16pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:\'Gulim\'; font-size:9pt;\"><br /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Gulim\';\">      ● 발전소 상태가 A 또는 B이고 어느 하나라도 증기발생기 수위가 협역수위 지시기로 68% 이하일 때</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:\'Gulim\';\"><br /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:\'Gulim\';\">      ● 발전소 상태가 C이고 핵분열생성물의 방출이 있는 증기발생기 수위가 협역수위 지시기로68% 이하일 때</span></p></body></html>", None, -1))
+        self.Purpose_FBD_pushButton_MIT01_2.setText(QtWidgets.QApplication.translate("Dialog", "Function-Based Display", None, -1))
+        self.Purpose_TBD_pushButton_MIT01_2.setText(QtWidgets.QApplication.translate("Dialog", "Task-Based Display", None, -1))
         self.textBrowser.setHtml(QtWidgets.QApplication.translate("Dialog", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"

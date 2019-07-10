@@ -1,15 +1,19 @@
 from ui_SAMG_2 import *
-#
+
 import sys
 from PySide2 import (QtCore, QtWidgets, QtGui)
 from PySide2.QtWidgets import QPushButton
-import random
+# import random
 
 class MainDialog(QtWidgets.QDialog):
-    def __init__(self):
-        super().__init__()
-        self.ui = Ui_Dialog()
-        self.ui.setupUi(self)
+    # def openWindow(self):
+    #     self.window = QtWidgets.QDialog()
+    #     self.ui = Ui_Guideline()
+    #     self.ui.setupUi(self.window)
+    #     self.window.show()
+    #     super().__init__()
+    #     self.ui = Ui_Dialog()
+    #     self.ui.setupUi(self)
 
         # self.pushbutton = QPushButton('A', self) #Pushbutton 생성
 
@@ -22,8 +26,10 @@ class MainDialog(QtWidgets.QDialog):
         self.out_data2 = ''
         self.out_data3 = ''
 
+#PushBUtton을 원하는 위치에 생성되게 하는 기능들, 이 기능은 Guideline Display에서 각 전략이 선택 될 떄, 같이 나타남.
+
     # def make_msg_box(self):
-    #     self.b = QtWidgets.QMessageBox()#critical(self, "주의!", "승헌이 컴을 포맷시킵니다.\n 해체를 위해서 오른쪽 버튼을 누르세요!!!")
+    #     self.b = QtWidgets.QMessageBox()
     #     #self.b.show()
     #     self.ans = QPushButton
     #     print(self.ans)
@@ -34,25 +40,12 @@ class MainDialog(QtWidgets.QDialog):
     #             self.collected_QpushButton.append(QtWidgets.QPushButton(self.ui.Out_textBrowser_MIT01))
     #             self.collected_QpushButton[-1].setGeometry(QtCore.QRect(init_pos_x, init_pos_y, 100, 30))
     #             self.collected_QpushButton[-1].show()
-    # #             nub += 1
-    # #             init_pos_x += 20
-    # #         init_pos_x = 10
-    # #         init_pos_y += 20
-    # #
-    #     for _ in range(0, 100):
-    #         self.test(_)
-    #
-    # def test(self, nub):
-    #     self.collected_botton[nub].clicked.connect(lambda: self.boom(self.collected_botton[nub], nub))
-    #
-    # def boom(self, bottom, nub):
-    #     if nub == self.ans:
-    #         self.b = QtWidgets.QMessageBox().critical(self, "주의!", "성공~~~")
-    #         for _ in self.collected_botton:
-    #             _.close()
-    #     else:
-    #         self.b = QtWidgets.QMessageBox().critical(self, "주의!", "꽝")
-    #     bottom.close()
+
+# ----------------------------------------------------------------------------------------------------------------------
+#----------------------------------------------------------------------------------------------------------------------
+#Guideline Display에서 Push버튼을 클릭할시, 각 화면들(Guideline Support, TBD, FBD)에서 결과값을 출력 하도록 하는 기능들
+#----------------------------------------------------------------------------------------------------------------------
+# ----------------------------------------------------------------------------------------------------------------------
 
     def textclicked(self): #목적 버튼을 누르면, Information, TBD, FBD에 자동으로 표시되게 하는 로직
         print(self.ui.Purpose_pushButton_MIT01.text())
