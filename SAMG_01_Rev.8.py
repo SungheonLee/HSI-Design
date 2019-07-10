@@ -11,12 +11,7 @@ class MainDialog(QtWidgets.QDialog):
         self.ui.setupUi(self)
 
         self.ui.Purpose_pushButton_MIT01.clicked.connect(self.textclicked)
-        self.ui.Purpose_pushButton_MIT01.clicked.connect(self.on_open)
         self.outdata = ""
-
-    def on_open(self):
-        self.QFrame = QFrame()
-        self.QFrame.show()
 
     def textclicked(self):
 
