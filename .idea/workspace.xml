@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bde63cad-9c03-4847-8a97-8d51e8f19a0d" name="Default Changelist" comment="">
+    <list default="true" id="bde63cad-9c03-4847-8a97-8d51e8f19a0d" name="Default Changelist" comment="디자인 코드">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SAMG_2.ui" beforeDir="false" afterPath="$PROJECT_DIR$/SAMG_2.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui_SAMG_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui_SAMG_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SAMG_01_Rev.7.py" beforeDir="false" afterPath="$PROJECT_DIR$/SAMG_01_Rev.7.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,12 +14,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SAMG_01_Rev.3.py">
+        <entry file="file://$PROJECT_DIR$/SAMG_01_Rev.4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+            <state relative-caret-position="57">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SAMG_01_Rev.7.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SAMG_01_Rev.6.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -29,17 +49,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ui_SAMG_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="120" column="80" selection-start-line="120" selection-start-column="80" selection-end-line="120" selection-end-column="80" />
+            <state relative-caret-position="174">
+              <caret line="135" selection-start-line="135" selection-end-line="136" selection-end-column="91" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ui_SAMG.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="175" lean-forward="true" selection-start-line="175" selection-end-line="175" />
+            <state relative-caret-position="209">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SAMG_01_Rev.5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#23#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,11 +87,19 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>clicked</find>
       <find>close</find>
+      <find>clicked</find>
+      <find>hidden</find>
+      <find>pushButton</find>
+      <find>Out_textBrowser_MIT01</find>
+      <find>Condition_pushButton</find>
+      <find>Current_Strategy_textBrowser_MIT01</find>
+      <find>i</find>
+      <find>Purpose_Name_textBrowser_MIT01_2</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -69,24 +109,21 @@
         <option value="$PROJECT_DIR$/as.py" />
         <option value="$PROJECT_DIR$/ui_SAMG.py" />
         <option value="$PROJECT_DIR$/SAMG_01_Rev.3.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/HSI-Design.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/SAMG_01_Rev.5.py" />
+        <option value="$PROJECT_DIR$/SAMG_01_Rev.4.py" />
+        <option value="$PROJECT_DIR$/SAMG_01_Rev.6.py" />
+        <option value="$PROJECT_DIR$/ui_SAMG_2.py" />
+        <option value="$PROJECT_DIR$/asd.py" />
+        <option value="$PROJECT_DIR$/a.py" />
+        <option value="$PROJECT_DIR$/SAMG_01_Rev.7.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2583" />
-    <option name="y" value="2" />
-    <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="x" value="2434" />
+    <option name="y" value="111" />
+    <option name="width" value="1932" />
+    <option name="height" value="1085" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -113,6 +150,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\leesh\Desktop\HSI-Design" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -125,8 +167,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SAMG_01_Rev.3">
-    <configuration name="SAMG_01_Rev.3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.SAMG_01_Rev.7">
+    <configuration name="SAMG_01_Rev.6" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HSI-Design" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,7 +180,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SAMG_01_Rev.3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SAMG_01_Rev.6.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,7 +189,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ui_SAMG" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="SAMG_01_Rev.7" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="HSI-Design" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,7 +201,70 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui_SAMG.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SAMG_01_Rev.7.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="a" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="HSI-Design" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/a.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="asd" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="HSI-Design" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/asd.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ui_SAMG_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="HSI-Design" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ui_SAMG_2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,8 +275,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.SAMG_01_Rev.3" />
-        <item itemvalue="Python.ui_SAMG" />
+        <item itemvalue="Python.SAMG_01_Rev.7" />
+        <item itemvalue="Python.a" />
+        <item itemvalue="Python.asd" />
+        <item itemvalue="Python.SAMG_01_Rev.6" />
+        <item itemvalue="Python.ui_SAMG_2" />
       </list>
     </recent_temporary>
   </component>
@@ -214,24 +322,69 @@
       <option name="project" value="LOCAL" />
       <updated>1562471935447</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="디자인 코드">
+      <created>1562472953266</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1562472953266</updated>
+    </task>
+    <task id="LOCAL-00006" summary="디자인 코드">
+      <created>1562474111580</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1562474111580</updated>
+    </task>
+    <task id="LOCAL-00007" summary="디자인 코드">
+      <created>1562484705012</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1562484705012</updated>
+    </task>
+    <task id="LOCAL-00008" summary="해킹코드 추가.">
+      <created>1562487540392</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1562487540392</updated>
+    </task>
+    <task id="LOCAL-00009" summary="디자인 코드">
+      <created>1562743318072</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1562743318072</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16160521" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34164858" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.329718" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286334" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.031185031" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.43600866" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -239,7 +392,48 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="해킹코드 추가." />
     <MESSAGE value="디자인 코드" />
     <option name="LAST_COMMIT_MESSAGE" value="디자인 코드" />
   </component>
@@ -249,232 +443,70 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../SAMG.ui">
+    <entry file="file://$PROJECT_DIR$/../SAMG.ui" />
+    <entry file="file://$PROJECT_DIR$/SAMG_01_Rev.3.py" />
+    <entry file="file://$PROJECT_DIR$/asd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1273">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="e#6955#6959#0" expanded="true" />
-            <element signature="e#6980#6986#0" expanded="true" />
-            <element signature="e#7010#7016#0" expanded="true" />
-            <element signature="e#7017#7023#0" expanded="true" />
-            <element signature="e#7065#7071#0" expanded="true" />
-            <element signature="e#7071#7075#0" expanded="true" />
-            <element signature="e#7076#7080#0" expanded="true" />
-            <element signature="e#7084#7088#0" expanded="true" />
-            <element signature="e#7088#7092#0" expanded="true" />
-            <element signature="e#7096#7100#0" expanded="true" />
-            <element signature="e#7100#7104#0" expanded="true" />
-            <element signature="e#7114#7120#0" expanded="true" />
-            <element signature="e#7129#7135#0" expanded="true" />
-            <element signature="e#7144#7150#0" expanded="true" />
-            <element signature="e#7151#7157#0" expanded="true" />
-            <element signature="e#7159#7163#0" expanded="true" />
-            <element signature="e#7163#7167#0" expanded="true" />
-            <element signature="e#7178#7184#0" expanded="true" />
-            <element signature="e#7192#7198#0" expanded="true" />
-            <element signature="e#7198#7202#0" expanded="true" />
-            <element signature="e#7236#7240#0" expanded="true" />
-            <element signature="e#7246#7250#0" expanded="true" />
-            <element signature="e#7250#7254#0" expanded="true" />
-            <element signature="e#7259#7263#0" expanded="true" />
-            <element signature="e#7263#7267#0" expanded="true" />
-            <element signature="e#7278#7284#0" expanded="true" />
-            <element signature="e#7357#7363#0" expanded="true" />
-            <element signature="e#7363#7367#0" expanded="true" />
-            <element signature="e#7368#7372#0" expanded="true" />
-            <element signature="e#7380#7386#0" expanded="true" />
-            <element signature="e#7392#7398#0" expanded="true" />
-            <element signature="e#7405#7411#0" expanded="true" />
-            <element signature="e#7543#7549#0" expanded="true" />
-            <element signature="e#7549#7553#0" expanded="true" />
-            <element signature="e#7553#7557#0" expanded="true" />
-            <element signature="e#7561#7565#0" expanded="true" />
-            <element signature="e#7565#7569#0" expanded="true" />
-            <element signature="e#7571#7575#0" expanded="true" />
-            <element signature="e#7575#7579#0" expanded="true" />
-            <element signature="e#7584#7588#0" expanded="true" />
-            <element signature="e#7588#7592#0" expanded="true" />
-            <element signature="e#7597#7601#0" expanded="true" />
-            <element signature="e#8513#8517#0" expanded="true" />
-            <element signature="e#8538#8544#0" expanded="true" />
-            <element signature="e#8568#8574#0" expanded="true" />
-            <element signature="e#8575#8581#0" expanded="true" />
-            <element signature="e#8623#8629#0" expanded="true" />
-            <element signature="e#8629#8633#0" expanded="true" />
-            <element signature="e#8634#8638#0" expanded="true" />
-            <element signature="e#8642#8646#0" expanded="true" />
-            <element signature="e#8646#8650#0" expanded="true" />
-            <element signature="e#8654#8658#0" expanded="true" />
-            <element signature="e#8658#8662#0" expanded="true" />
-            <element signature="e#8672#8678#0" expanded="true" />
-            <element signature="e#8687#8693#0" expanded="true" />
-            <element signature="e#8702#8708#0" expanded="true" />
-            <element signature="e#8709#8715#0" expanded="true" />
-            <element signature="e#8717#8721#0" expanded="true" />
-            <element signature="e#8721#8725#0" expanded="true" />
-            <element signature="e#8736#8742#0" expanded="true" />
-            <element signature="e#8750#8756#0" expanded="true" />
-            <element signature="e#8756#8760#0" expanded="true" />
-            <element signature="e#8794#8798#0" expanded="true" />
-            <element signature="e#8804#8808#0" expanded="true" />
-            <element signature="e#8808#8812#0" expanded="true" />
-            <element signature="e#8817#8821#0" expanded="true" />
-            <element signature="e#8821#8825#0" expanded="true" />
-            <element signature="e#8836#8842#0" expanded="true" />
-            <element signature="e#8914#8920#0" expanded="true" />
-            <element signature="e#8920#8924#0" expanded="true" />
-            <element signature="e#8925#8929#0" expanded="true" />
-            <element signature="e#8937#8943#0" expanded="true" />
-            <element signature="e#9050#9056#0" expanded="true" />
-            <element signature="e#9056#9060#0" expanded="true" />
-            <element signature="e#9072#9076#0" expanded="true" />
-            <element signature="e#9078#9082#0" expanded="true" />
-            <element signature="e#9082#9086#0" expanded="true" />
-            <element signature="e#9091#9095#0" expanded="true" />
-            <element signature="e#9095#9099#0" expanded="true" />
-            <element signature="e#9104#9108#0" expanded="true" />
-            <element signature="e#10341#10345#0" expanded="true" />
-            <element signature="e#10366#10372#0" expanded="true" />
-            <element signature="e#10396#10402#0" expanded="true" />
-            <element signature="e#10403#10409#0" expanded="true" />
-            <element signature="e#10451#10457#0" expanded="true" />
-            <element signature="e#10457#10461#0" expanded="true" />
-            <element signature="e#10462#10466#0" expanded="true" />
-            <element signature="e#10470#10474#0" expanded="true" />
-            <element signature="e#10474#10478#0" expanded="true" />
-            <element signature="e#10482#10486#0" expanded="true" />
-            <element signature="e#10486#10490#0" expanded="true" />
-            <element signature="e#10500#10506#0" expanded="true" />
-            <element signature="e#10515#10521#0" expanded="true" />
-            <element signature="e#10530#10536#0" expanded="true" />
-            <element signature="e#10537#10543#0" expanded="true" />
-            <element signature="e#10545#10549#0" expanded="true" />
-            <element signature="e#10549#10553#0" expanded="true" />
-            <element signature="e#10564#10570#0" expanded="true" />
-            <element signature="e#10578#10584#0" expanded="true" />
-            <element signature="e#10584#10588#0" expanded="true" />
-            <element signature="e#10622#10626#0" expanded="true" />
-            <element signature="e#10632#10636#0" expanded="true" />
-            <element signature="e#10636#10640#0" expanded="true" />
-            <element signature="e#10645#10649#0" expanded="true" />
-            <element signature="e#10649#10653#0" expanded="true" />
-            <element signature="e#10664#10670#0" expanded="true" />
-            <element signature="e#10742#10748#0" expanded="true" />
-            <element signature="e#10748#10752#0" expanded="true" />
-            <element signature="e#10753#10757#0" expanded="true" />
-            <element signature="e#10765#10771#0" expanded="true" />
-            <element signature="e#10878#10884#0" expanded="true" />
-            <element signature="e#10884#10888#0" expanded="true" />
-            <element signature="e#10890#10894#0" expanded="true" />
-            <element signature="e#10896#10900#0" expanded="true" />
-            <element signature="e#10900#10904#0" expanded="true" />
-            <element signature="e#10909#10913#0" expanded="true" />
-            <element signature="e#10913#10917#0" expanded="true" />
-            <element signature="e#10922#10926#0" expanded="true" />
-            <element signature="e#11215#11219#0" expanded="true" />
-            <element signature="e#11240#11246#0" expanded="true" />
-            <element signature="e#11270#11276#0" expanded="true" />
-            <element signature="e#11277#11283#0" expanded="true" />
-            <element signature="e#11325#11331#0" expanded="true" />
-            <element signature="e#11331#11335#0" expanded="true" />
-            <element signature="e#11336#11340#0" expanded="true" />
-            <element signature="e#11344#11348#0" expanded="true" />
-            <element signature="e#11348#11352#0" expanded="true" />
-            <element signature="e#11356#11360#0" expanded="true" />
-            <element signature="e#11360#11364#0" expanded="true" />
-            <element signature="e#11374#11380#0" expanded="true" />
-            <element signature="e#11389#11395#0" expanded="true" />
-            <element signature="e#11404#11410#0" expanded="true" />
-            <element signature="e#11411#11417#0" expanded="true" />
-            <element signature="e#11419#11423#0" expanded="true" />
-            <element signature="e#11423#11427#0" expanded="true" />
-            <element signature="e#11438#11444#0" expanded="true" />
-            <element signature="e#11452#11458#0" expanded="true" />
-            <element signature="e#11458#11462#0" expanded="true" />
-            <element signature="e#11496#11500#0" expanded="true" />
-            <element signature="e#11506#11510#0" expanded="true" />
-            <element signature="e#11510#11514#0" expanded="true" />
-            <element signature="e#11519#11523#0" expanded="true" />
-            <element signature="e#11523#11527#0" expanded="true" />
-            <element signature="e#11538#11544#0" expanded="true" />
-            <element signature="e#11616#11622#0" expanded="true" />
-            <element signature="e#11622#11626#0" expanded="true" />
-            <element signature="e#11627#11631#0" expanded="true" />
-            <element signature="e#11639#11645#0" expanded="true" />
-            <element signature="e#11752#11758#0" expanded="true" />
-            <element signature="e#11758#11762#0" expanded="true" />
-            <element signature="e#11768#11773#0" expanded="true" />
-            <element signature="e#11789#11794#0" expanded="true" />
-            <element signature="e#11799#11803#0" expanded="true" />
-            <element signature="e#11805#11809#0" expanded="true" />
-            <element signature="e#11809#11813#0" expanded="true" />
-            <element signature="e#11818#11822#0" expanded="true" />
-            <element signature="e#11822#11826#0" expanded="true" />
-            <element signature="e#11831#11835#0" expanded="true" />
-            <element signature="e#12124#12128#0" expanded="true" />
-            <element signature="e#12149#12155#0" expanded="true" />
-            <element signature="e#12179#12185#0" expanded="true" />
-            <element signature="e#12186#12192#0" expanded="true" />
-            <element signature="e#12234#12240#0" expanded="true" />
-            <element signature="e#12240#12244#0" expanded="true" />
-            <element signature="e#12245#12249#0" expanded="true" />
-            <element signature="e#12253#12257#0" expanded="true" />
-            <element signature="e#12257#12261#0" expanded="true" />
-            <element signature="e#12265#12269#0" expanded="true" />
-            <element signature="e#12269#12273#0" expanded="true" />
-            <element signature="e#12283#12289#0" expanded="true" />
-            <element signature="e#12298#12304#0" expanded="true" />
-            <element signature="e#12313#12319#0" expanded="true" />
-            <element signature="e#12320#12326#0" expanded="true" />
-            <element signature="e#12328#12332#0" expanded="true" />
-            <element signature="e#12332#12336#0" expanded="true" />
-            <element signature="e#12347#12353#0" expanded="true" />
-            <element signature="e#12361#12367#0" expanded="true" />
-            <element signature="e#12367#12371#0" expanded="true" />
-            <element signature="e#12405#12409#0" expanded="true" />
-            <element signature="e#12415#12419#0" expanded="true" />
-            <element signature="e#12419#12423#0" expanded="true" />
-            <element signature="e#12428#12432#0" expanded="true" />
-            <element signature="e#12432#12436#0" expanded="true" />
-            <element signature="e#12447#12453#0" expanded="true" />
-            <element signature="e#12525#12531#0" expanded="true" />
-            <element signature="e#12531#12535#0" expanded="true" />
-            <element signature="e#12536#12540#0" expanded="true" />
-            <element signature="e#12548#12554#0" expanded="true" />
-            <element signature="e#12661#12667#0" expanded="true" />
-            <element signature="e#12667#12671#0" expanded="true" />
-            <element signature="e#12676#12680#0" expanded="true" />
-            <element signature="e#12682#12686#0" expanded="true" />
-            <element signature="e#12686#12690#0" expanded="true" />
-            <element signature="e#12695#12699#0" expanded="true" />
-            <element signature="e#12699#12703#0" expanded="true" />
-            <element signature="e#12708#12712#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SAMG_01_Rev.3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="54" lean-forward="true" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui_SAMG_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="120" column="80" selection-start-line="120" selection-start-column="80" selection-end-line="120" selection-end-column="80" />
+        <state relative-caret-position="1194">
+          <caret line="68" column="148" lean-forward="true" selection-start-line="68" selection-start-column="148" selection-end-line="68" selection-end-column="148" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ui_SAMG.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="175" lean-forward="true" selection-start-line="175" selection-end-line="175" />
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SAMG_01_Rev.5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui_SAMG_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="135" selection-start-line="135" selection-end-line="136" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SAMG_01_Rev.6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SAMG_01_Rev.4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SAMG_01_Rev.7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
