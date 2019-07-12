@@ -1,8 +1,7 @@
 from ui_SAMG_2 import *
-from ui_1 import *
-#
+
 import sys
-from PySide2 import (QtCore, QtWidgets, QtGui,)
+from PySide2 import (QtCore, QtWidgets, QtGui)
 
 class MainDialog(QtWidgets.QDialog):
     def __init__(self):
@@ -10,14 +9,16 @@ class MainDialog(QtWidgets.QDialog):
         self.ui = Ui_Dialog()
         self.ui.setupUi(self)
 
-        self.ui.Purpose_pushButton_MIT01.clicked.connect(self.textclicked)
-        self.outdata = ""
 
-    def textclicked(self):
 
-        print(self.ui.Purpose_pushButton_MIT01.text())
-        self.ui.Purpose_Out_textBrowser_MIT01.clear()
-        self.ui.Purpose_Out_textBrowser_MIT01.setText("\n" + 'aaa')
+        # self.ui.Purpose_pushButton_MIT01.clicked.connect(self.textclicked)
+        # self.outdata = ""
+
+    # def textclicked(self):
+
+        # print(self.ui.Purpose_pushButton_MIT01.show())
+        # self.ui.textBrowser_4.clear()
+        # self.ui.textBrowser_4.setText("\n" + 'aaa')
 
 
 
