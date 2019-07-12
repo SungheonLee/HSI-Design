@@ -9,7 +9,14 @@ class MainDialog(QtWidgets.QDialog):
         self.ui = Ui_Dialog()
         self.ui.setupUi(self)
 
+        self.ui.Purpose_pushButton_MIT01.clicked.connect(self.show_clicked_0)
+        self.ui.Condition_pushButton_MIT01.clicked.connect(self.show_clicked_1)
 
+
+    def show_clicked_0(self):
+        self.ui.stackedWidget.setCurrentIndex(0)
+    def show_clicked_1(self):
+        self.ui.stackedWidget.setCurrentIndex(1)
 
         # self.ui.Purpose_pushButton_MIT01.clicked.connect(self.textclicked)
         # self.outdata = ""

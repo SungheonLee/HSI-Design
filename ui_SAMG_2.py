@@ -3,7 +3,7 @@
 # Form implementation generated from reading ui file 'SAMG_2.ui',
 # licensing of 'SAMG_2.ui' applies.
 #
-# Created: Fri Jul 12 12:00:28 2019
+# Created: Fri Jul 12 17:08:28 2019
 #      by: pyside2-uic  running on PySide2 5.13.0
 #
 # WARNING! All changes made in this file will be lost!
@@ -130,21 +130,26 @@ class Ui_Dialog(object):
         self.frame_4.setFrameShape(QtWidgets.QFrame.WinPanel)
         self.frame_4.setFrameShadow(QtWidgets.QFrame.Plain)
         self.frame_4.setObjectName("frame_4")
-        self.frame_2 = QtWidgets.QFrame(Dialog)
-        self.frame_2.setGeometry(QtCore.QRect(420, 100, 1361, 1261))
-        self.frame_2.setFrameShape(QtWidgets.QFrame.WinPanel)
-        self.frame_2.setFrameShadow(QtWidgets.QFrame.Plain)
-        self.frame_2.setObjectName("frame_2")
-        self.frame_6 = QtWidgets.QFrame(Dialog)
-        self.frame_6.setGeometry(QtCore.QRect(470, 1380, 1121, 141))
-        self.frame_6.setFrameShape(QtWidgets.QFrame.StyledPanel)
-        self.frame_6.setFrameShadow(QtWidgets.QFrame.Raised)
-        self.frame_6.setObjectName("frame_6")
-        self.textBrowser_4 = QtWidgets.QTextBrowser(self.frame_6)
-        self.textBrowser_4.setGeometry(QtCore.QRect(20, 10, 256, 51))
-        self.textBrowser_4.setObjectName("textBrowser_4")
+        self.stackedWidget = QtWidgets.QStackedWidget(Dialog)
+        self.stackedWidget.setGeometry(QtCore.QRect(420, 100, 1361, 1261))
+        self.stackedWidget.setFrameShape(QtWidgets.QFrame.WinPanel)
+        self.stackedWidget.setFrameShadow(QtWidgets.QFrame.Plain)
+        self.stackedWidget.setObjectName("stackedWidget")
+        self.page = QtWidgets.QWidget()
+        self.page.setObjectName("page")
+        self.pushButton = QtWidgets.QPushButton(self.page)
+        self.pushButton.setGeometry(QtCore.QRect(310, 120, 75, 23))
+        self.pushButton.setObjectName("pushButton")
+        self.stackedWidget.addWidget(self.page)
+        self.page_2 = QtWidgets.QWidget()
+        self.page_2.setObjectName("page_2")
+        self.radioButton = QtWidgets.QRadioButton(self.page_2)
+        self.radioButton.setGeometry(QtCore.QRect(130, 200, 90, 16))
+        self.radioButton.setObjectName("radioButton")
+        self.stackedWidget.addWidget(self.page_2)
 
         self.retranslateUi(Dialog)
+        self.stackedWidget.setCurrentIndex(1)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
 
     def retranslateUi(self, Dialog):
@@ -173,4 +178,6 @@ class Ui_Dialog(object):
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Gulim\'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">흐른 시간</p></body></html>", None, -1))
+        self.pushButton.setText(QtWidgets.QApplication.translate("Dialog", "PushButton", None, -1))
+        self.radioButton.setText(QtWidgets.QApplication.translate("Dialog", "RadioButton", None, -1))
 
