@@ -2,13 +2,22 @@ from ui_SAMG_2 import *
 
 import sys
 from PySide2 import (QtCore, QtWidgets, QtGui)
-from PySide2.QtCore import QDateTime, QDate, QTime, Qt
+from PySide2.QtCore import *
+from PyQt5 import uic
+
 
 class MainDialog(QtWidgets.QDialog):
     def __init__(self):
         super().__init__()
         self.ui = Ui_Dialog()
         self.ui.setupUi(self)
+
+# ---------------------------------------------------------------------------------------------------------------------- (현재 Date Time 생성 로직)
+
+        self.currentDateTime = QDateTime.currentDateTime()
+        self.ui.dateTimeEdit.setDateTime(self.currentDateTime)
+# ---------------------------------------------------------------------------------------------------------------------- (현재 Date Time 생성 로직 여기까지)
+
 
 # ---------------------------------------------------------------------------------------------------------------------- (Frame Change 로직)
         self.ui.Purpose_pushButton_MIT01.clicked.connect(self.show_clicked_1)
@@ -42,28 +51,6 @@ class MainDialog(QtWidgets.QDialog):
         self.ui.stackedWidget.setCurrentIndex(9)
 
 # ---------------------------------------------------------------------------------------------------------------------- (Frame Change 로직 여기까지)
-
-
-# ---------------------------------------------------------------------------------------------------------------------- (현재 Date Time 생성 로직)
-        print(self.show(self.ui.dateTimeEdit))
-        self.ui.dateTimeEdit.setDateTime('now')
-
-now = QDate.currentDate()
-print(now.toString(Qt.ISODate))
-print(now.toString(Qt.DefaultLocaleLongDate))
-
-datetime = QDateTime.currentDateTime()
-
-print(datetime.toString())
-
-time = QTime.currentTime()
-
-print(time.toString(Qt.DefaultLocaleLongDate))
-
-# ---------------------------------------------------------------------------------------------------------------------- (현재 Date Time 생성 로직 여기까지)
-
-
-
 
         # self.ui.Purpose_pushButton_MIT01.clicked.connect(self.textclicked)
         # self.outdata = ""

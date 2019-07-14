@@ -3,7 +3,7 @@
 # Form implementation generated from reading ui file 'SAMG_2.ui',
 # licensing of 'SAMG_2.ui' applies.
 #
-# Created: Sun Jul 14 13:09:25 2019
+# Created: Sun Jul 14 14:23:11 2019
 #      by: pyside2-uic  running on PySide2 5.13.0
 #
 # WARNING! All changes made in this file will be lost!
@@ -108,23 +108,15 @@ class Ui_Dialog(object):
         self.frame_5.setFrameShape(QtWidgets.QFrame.WinPanel)
         self.frame_5.setFrameShadow(QtWidgets.QFrame.Plain)
         self.frame_5.setObjectName("frame_5")
-        self.textBrowser = QtWidgets.QTextBrowser(self.frame_5)
-        self.textBrowser.setGeometry(QtCore.QRect(220, 10, 161, 61))
-        self.textBrowser.setObjectName("textBrowser")
         self.textBrowser_3 = QtWidgets.QTextBrowser(self.frame_5)
         self.textBrowser_3.setGeometry(QtCore.QRect(10, 90, 181, 61))
         self.textBrowser_3.setObjectName("textBrowser_3")
+        self.label = QtWidgets.QLabel(self.frame_5)
+        self.label.setGeometry(QtCore.QRect(200, 20, 161, 16))
+        self.label.setObjectName("label")
         self.dateTimeEdit = QtWidgets.QDateTimeEdit(self.frame_5)
-        self.dateTimeEdit.setGeometry(QtCore.QRect(10, 20, 151, 22))
-        self.dateTimeEdit.setFocusPolicy(QtCore.Qt.WheelFocus)
+        self.dateTimeEdit.setGeometry(QtCore.QRect(10, 10, 161, 71))
         self.dateTimeEdit.setButtonSymbols(QtWidgets.QAbstractSpinBox.NoButtons)
-        self.dateTimeEdit.setDateTime(QtCore.QDateTime(QtCore.QDate(2019, 7, 14), QtCore.QTime(12, 50, 0)))
-        self.dateTimeEdit.setDate(QtCore.QDate(2019, 7, 14))
-        self.dateTimeEdit.setTime(QtCore.QTime(12, 50, 0))
-        self.dateTimeEdit.setMaximumDateTime(QtCore.QDateTime(QtCore.QDate(9999, 12, 29), QtCore.QTime(17, 59, 59)))
-        self.dateTimeEdit.setMaximumTime(QtCore.QTime(17, 59, 59))
-        self.dateTimeEdit.setCurrentSection(QtWidgets.QDateTimeEdit.YearSection)
-        self.dateTimeEdit.setTimeSpec(QtCore.Qt.LocalTime)
         self.dateTimeEdit.setObjectName("dateTimeEdit")
         self.frame_3 = QtWidgets.QFrame(Dialog)
         self.frame_3.setGeometry(QtCore.QRect(1780, 20, 771, 671))
@@ -231,7 +223,7 @@ class Ui_Dialog(object):
         self.stackedWidget.addWidget(self.End_page)
 
         self.retranslateUi(Dialog)
-        self.stackedWidget.setCurrentIndex(0)
+        self.stackedWidget.setCurrentIndex(1)
         QtCore.QMetaObject.connectSlotsByName(Dialog)
 
     def retranslateUi(self, Dialog):
@@ -245,16 +237,12 @@ class Ui_Dialog(object):
         self.Decide_Method_pushButton_MIT01.setText(QtWidgets.QApplication.translate("Dialog", "전략 수행 방법 결정", None, -1))
         self.Perform_pushButton_MIT01.setText(QtWidgets.QApplication.translate("Dialog", "전략 수행", None, -1))
         self.End_pushButton_MIT01.setText(QtWidgets.QApplication.translate("Dialog", "전략 종결", None, -1))
-        self.textBrowser.setHtml(QtWidgets.QApplication.translate("Dialog", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
-"<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
-"p, li { white-space: pre-wrap; }\n"
-"</style></head><body style=\" font-family:\'Gulim\'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">호기</p></body></html>", None, -1))
         self.textBrowser_3.setHtml(QtWidgets.QApplication.translate("Dialog", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Gulim\'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">흐른 시간</p></body></html>", None, -1))
+        self.label.setText(QtWidgets.QApplication.translate("Dialog", "진행중인 호기", None, -1))
         self.dateTimeEdit.setDisplayFormat(QtWidgets.QApplication.translate("Dialog", "yyyy-MM-dd AP hh:mm:ss", None, -1))
         self.textBrowser_5.setHtml(QtWidgets.QApplication.translate("Dialog", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
