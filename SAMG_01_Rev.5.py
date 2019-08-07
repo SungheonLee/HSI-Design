@@ -6,6 +6,7 @@ from PySide2.QtWidgets import QPushButton
 # import random
 
 class MainDialog(QtWidgets.QDialog):
+    def __init__(self):
     # def openWindow(self):
     #     self.window = QtWidgets.QDialog()
     #     self.ui = Ui_Guideline()
